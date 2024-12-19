@@ -1,0 +1,162 @@
+/* Container styles */
+.reader-container {
+  display: flex;
+  justify-content: center;
+  padding: 1.25rem;
+  background-color: rgb(243 244 246);
+  min-height: 100vh;
+}
+
+.reader-card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 0.375rem;
+  width: 550px;
+  min-height: 400px;
+  font-family: 'Courier New', monospace;
+}
+
+/* Header styles */
+.reader-header {
+  text-align: center;
+  border-bottom: 2px dashed rgb(55 65 81);
+  padding-bottom: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.reader-title {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+}
+
+/* Content styles */
+.reader-content {
+  margin-bottom: 1.25rem;
+}
+
+.file-upload-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.file-input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px dashed rgb(209 213 219);
+  border-radius: 0.375rem;
+  cursor: pointer;
+}
+
+.file-input:hover {
+  border-color: rgb(34 197 94);
+}
+
+/* Ingredients display styles */
+.ingredients-display {
+  margin-bottom: 1rem;
+}
+
+.ingredients-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.ingredient-display-group {
+  margin-bottom: 0.75rem;
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.display-name {
+  flex-grow: 1;
+  padding: 0.5rem;
+  border: 1px solid rgb(209 213 219);
+  border-radius: 0.375rem;
+  background-color: rgb(249 250 251);
+  font-family: 'Courier New', monospace;
+}
+
+.display-quantity {
+  width: 5rem;
+  padding: 0.5rem;
+  border: 1px solid rgb(209 213 219);
+  border-radius: 0.375rem;
+  background-color: rgb(249 250 251);
+}
+
+.display-unit {
+  width: 8rem;
+  padding: 0.5rem;
+  border: 1px solid rgb(209 213 219);
+  border-radius: 0.375rem;
+  background-color: rgb(249 250 251);
+  font-family: 'Courier New', monospace;
+}
+
+/* Button styles */
+.clear-button {
+  width: 100%;
+  background-color: rgb(34 197 94);
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.375rem;
+  margin-bottom: 1.25rem;
+  transition: background-color 0.3s;
+  border: none;
+  cursor: pointer;
+}
+
+.clear-button:hover {
+  background-color: rgb(22 163 74);
+}
+
+/* Footer styles */
+.reader-footer {
+  text-align: center;
+  border-top: 2px dashed rgb(55 65 81);
+  padding-top: 1rem;
+  margin-top: 1.25rem;
+}
+
+.dotted-line {
+  border-top: 1px dotted rgb(55 65 81);
+  margin: 0.75rem 0;
+}
+
+.status-text {
+  font-size: 0.875rem;
+  color: rgb(75 85 99);
+}
+
+/* Input focus styles */
+.display-name:focus,
+.display-quantity:focus,
+.display-unit:focus {
+  outline: none;
+}
+
+/* Button focus styles */
+.clear-button:focus {
+  outline: 2px solid rgb(34 197 94);
+  outline-offset: 2px;
+}
+
+.back-button {
+  width: 15%;
+  background-color: rgb(34 197 94);
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.375rem;
+  margin-bottom: 1.25rem;
+  transition: background-color 0.3s;
+  border: none;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: rgb(22 163 74);
+}
